@@ -7,6 +7,19 @@ void main()
     scanf("%s%s",str[i],s[i]);
     printf("\n Enter k:");
     scanf("%d",&k);
-    for(i=0;str[i])
+    for(i=0;str[i]='\0'||s[i]!='\0';i++)
+    {
+        if(str[i]!=s[i])
+        {
+            count++;
+        }
+        if(k==count)
+        {
+            printf("\n Yes");
+        }
+        else
+        {
+            printf("\n No");
+        }
     
 }
